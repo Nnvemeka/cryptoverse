@@ -10,15 +10,12 @@ const Navbar = () => {
             <div className="logo-container">
                 <Avatar src={logo} size='large'/>
                 <Typography.Title level={2} className='logo'>
-                    <Link to='/'>
+                    <Link to='/' style={{color: 'black', fontWeight: 'bold'}}>
                         Cryptoverse
                     </Link>
                 </Typography.Title>
-                {/* <Button className='menu-control-container'>
-
-            </Button> */}
             </div>
-            <Menu theme='dark'>
+            <Menu theme='light'>
                 <Menu.Item icon={<HomeOutlined />}>
                     <Link to='/'>Home</Link>
                 </Menu.Item>
